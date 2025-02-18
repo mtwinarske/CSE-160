@@ -1,0 +1,36 @@
+# Miles Winarske
+# Fall 2024
+# CSE 160
+# Homework 6
+# Fishing.py function tests
+
+## Question 1
+Why are there multiple rows for Ankh-Morpork? Why isn't there just a single row for this country?
+
+There are multiple rows because each one represents a different measurement 
+for example, the given measurements we are looking at are "farmed", "wild caught", "consumption", and "population".
+
+## Question 2
+What do you notice about the data for 1960? How do you think that affects how you'll
+handle reading the data in this problem's functions? (Hint: read the tip above.)
+
+There is no data for consumption in 1960, so the function will need to skip this missing value.
+
+## Question 3
+The consumption measurement type is clearly labeled (line 2 of the file), but none of the
+other lines are labeled "production". If you were to ask "how much seafood did Ankh-Morpork 
+produce in 1960?" how would you come up with the answer? (Hint: the answer would be 8098.)
+
+Production would be a sum of both the farmed and wild caught fish and totalled up into a single value.
+
+## Question 4
+When did the US's need surpass its production?
+
+From what I can tell, 1997 is when the US needed to surpass its production.
+
+## Question 5
+What's missing from the data we gave you that would help explain why the US was still able
+to consume more seafood than it produced?
+
+Something that would be helpful would be having some sort of Economic movement data,
+like if there was an issue with production that resulted in more importing than expected.
